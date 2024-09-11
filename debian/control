@@ -1,0 +1,18 @@
+Source: flatlaf
+Section: java
+Priority: optional
+Maintainer: Masahiro Kitagawa <arctica0316@gmail.com>
+Build-Depends:
+ debhelper (>= 11),
+ default-jdk-headless,
+ gradle (>= 4)
+Standards-Version: 4.6.2
+Vcs-Git: https://github.com/JFormDesigner/FlatLaf.git
+Vcs-Browser: https://github.com/JFormDesigner/FlatLaf
+Homepage: https://www.formdev.com/flatlaf/
+
+Package: libflatlaf-java
+Architecture: all
+Depends:
+ ${misc:Depends}
+Description: FlatLaf - Swing Look and Feel

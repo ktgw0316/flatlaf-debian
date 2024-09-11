@@ -1,0 +1,12 @@
+flatlaf-core/build/libs/flatlaf-3.6-SNAPSHOT.jar usr/share/java
+# flatlaf-extras/build/libs/flatlaf-extras-3.6-SNAPSHOT.jar usr/share/java
+# flatlaf-fonts/flatlaf-fonts-inter/build/libs/flatlaf-fonts-inter-4.0-SNAPSHOT.jar usr/share/java
+# flatlaf-fonts/flatlaf-fonts-jetbrains-mono/build/libs/flatlaf-fonts-jetbrains-mono-2.304-SNAPSHOT.jar usr/share/java
+# flatlaf-fonts/flatlaf-fonts-roboto-mono/build/libs/flatlaf-fonts-roboto-mono-3.000-SNAPSHOT.jar usr/share/java
+# flatlaf-fonts/flatlaf-fonts-roboto/build/libs/flatlaf-fonts-roboto-2.137-SNAPSHOT.jar usr/share/java
+flatlaf-intellij-themes/build/libs/flatlaf-intellij-themes-3.6-SNAPSHOT.jar usr/share/java
+# flatlaf-jide-oss/build/libs/flatlaf-jide-oss-3.6-SNAPSHOT-sources.jar usr/share/java
+# flatlaf-jide-oss/build/libs/flatlaf-jide-oss-3.6-SNAPSHOT.jar usr/share/java
+# flatlaf-natives/flatlaf-natives-jna/build/libs/flatlaf-natives-jna-3.6-SNAPSHOT.jar usr/share/java
+# flatlaf-swingx/build/libs/flatlaf-swingx-3.6-SNAPSHOT.jar usr/share/java
+# flatlaf-theme-editor/build/libs/flatlaf-theme-editor-3.6-SNAPSHOT.jar usr/share/java

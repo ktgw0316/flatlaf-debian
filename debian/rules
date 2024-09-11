@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+export JAVA_HOME:=/usr/lib/jvm/default-java
+
+%:
+	dh $@ 
+
+override_dh_auto_build:
+	./gradlew jar --offline
+
+override_dh_auto_clean:
+	find . -name .gradle -type d -exec $(RM) -r {} +
+	find . -name build   -type d -exec $(RM) -r {} +
+	dh_auto_clean
