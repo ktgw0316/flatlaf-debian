@@ -1,14 +1,17 @@
 #!/usr/bin/make -f
 
 export JAVA_HOME:=/usr/lib/jvm/default-java
+export GRADLE_USER_HOME:=$(CURDIR)/debian/gradle
 
 %:
 	dh $@ 
 
 override_dh_auto_build:
-	./gradlew jar --offline
+	cp -rf gradle/ $(GRADLE_USER_HOME)
+	./gradlew jar
 
 override_dh_auto_clean:
 	find . -name .gradle -type d -exec $(RM) -r {} +
 	find . -name build   -type d -exec $(RM) -r {} +
+	$(RM) -r $(GRADLE_USER_HOME)
 	dh_auto_clean
