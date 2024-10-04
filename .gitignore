@@ -1,0 +1,4 @@
+debian/.debhelper/
+debian/libflatlaf-java/
+*.substvars
+debhelper-build-stamp
