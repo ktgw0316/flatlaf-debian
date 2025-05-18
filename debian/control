@@ -3,9 +3,7 @@ Section: java
 Priority: optional
 Maintainer: Masahiro Kitagawa <arctica0316@gmail.com>
 Build-Depends:
- debhelper (>= 11),
- default-jdk-headless,
- gradle (>= 4)
+ debhelper (>= 11)
 Standards-Version: 4.6.2
 Vcs-Git: https://github.com/JFormDesigner/FlatLaf.git
 Vcs-Browser: https://github.com/JFormDesigner/FlatLaf
