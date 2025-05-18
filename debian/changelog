@@ -1,5 +1,11 @@
-flatlaf (3.5.1-1) UNRELEASED; urgency=medium
+flatlaf (3.6.0-1) unstable; urgency=medium
+
+  * Upstream sync
+
+ -- Masahiro Kitagawa <arctica0316@gmail.com>  Sun, 18 May 2025 16:23:00 +0900
+
+flatlaf (3.5.1-1) unstable; urgency=medium
 
   * Initial release
 
- -- Masahiro Kitagawa <arctica0316@gmail.com>  Mon, 9 Sep 2024 20:30:00 +0900
+ -- Masahiro Kitagawa <arctica0316@gmail.com>  Wed, 11 Sep 2024 20:30:00 +0900
