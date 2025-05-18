@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Masahiro Kitagawa <arctica0316@gmail.com>
 Build-Depends:
  debhelper (>= 11),
- default-jdk,
+ default-jdk-headless | openjdk-17-jdk-headless | openjdk-21-jdk-headless,
 Standards-Version: 4.6.2
 Vcs-Git: https://github.com/JFormDesigner/FlatLaf.git
 Vcs-Browser: https://github.com/JFormDesigner/FlatLaf
